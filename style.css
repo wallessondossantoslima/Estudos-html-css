@@ -1,0 +1,48 @@
+:root {
+  --bg-color-black: #000000;
+  --bg-color-red: #ff0000;
+}
+
+ul li {
+  position: relative;
+  list-style: nome;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  background: var(--bg-color-black);
+  box-shadow: 5px 5px 25px var(--bg-color-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: .5s;
+}
+
+ul li:hover {
+  width: 200px;
+  box-shadow: 5px 5px 25px var(--bg-color-red);
+}
+
+ul li ion-icon {
+  color: var(--bg-color-red);
+  font-size:  1.75em;
+}
+
+ul li span {
+  position: absolute;
+}
+
+.title {
+  color: var(--bg-color-red);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transform: scale(0);
+  transition-delay: 0s;
+  top: 70%;
+}
+
+ul li:hover .title {
+  transform: scale(1);
+}
