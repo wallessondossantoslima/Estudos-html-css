@@ -1,0 +1,21 @@
+button {
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: 1000;
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: inset;
+  border-width: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: white;
+  background-color: rgb(0, 0, 255);
+  transition: 1s;
+}
+
+button:hover {
+  background: red;
+}
